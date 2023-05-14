@@ -13,6 +13,15 @@
 
 - Download the source code and import in intellijIDEA.
 - Put the properties into application properties of Resource Package
+spring.datasource.url=jdbc:mysql://localhost:3306/Instagram
+spring.datasource.username=root
+spring.datasource.password=MySQL@0101
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
 - Go to localhost:8080/
 - For mysql workbench localHost:3306/
 
